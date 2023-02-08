@@ -72,7 +72,7 @@ header {
 
 .picture img {
 	width: 100%;
-	height: initial;
+	/* height: initial; */
 }
 #about-me {
 	flex: 2
