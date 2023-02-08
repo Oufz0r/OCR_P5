@@ -6,15 +6,18 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
-.top-header {
+header {
 	background-color: white;
 	position: sticky;
 	top:0;
 	z-index: 1000;
-	display: flex;
-	justify-content: space-between;
 	padding-inline: 100px;
 	padding-block: 30px;
+}
+.top-header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -69,7 +72,7 @@ body {
 
 .picture img {
 	width: 100%;
-	height: auto;
+	height: initial;
 }
 #about-me {
 	flex: 2
@@ -79,15 +82,16 @@ body {
 	margin-bottom: 60px;
 	font-size: 30px;
 }
+#about-me {
+	width: 80%;
+	font-size: 14px;
+}
 .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
-}
-#about-me p {
-	width: 80%;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 #gallery {
@@ -213,7 +217,9 @@ body {
 }
 .form-container {
 	flex : 2;
-
+}
+.form-container h2 {
+	font-size: 28px;
 }
 form {
 	display: flex;
@@ -243,6 +249,34 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 10px;
+}
+footer ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+footer ul li {
+	margin: 0 20px 0 20px;
+	list-style: none;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+}
+footer a:hover {
+	color: #BEB45A;
+}
+
+
+
+
+
+
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -259,6 +293,10 @@ input[type="submit"] {
 		width: 100%;
 	}
 }
+
+
+
+
 
 @media all and (max-width: 1000px) {
 	#about{
@@ -319,10 +357,25 @@ input[type="submit"] {
 	}
 }
 
+
+
+
+
 @media all and (max-width: 650px) {
+	header {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	nav {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
+		width: 100%;
 	}
 	.top-header .nav, .top-header .nav ul {
 		width: 100%;
