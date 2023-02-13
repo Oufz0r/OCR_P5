@@ -46,6 +46,12 @@ div {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: auto;
 }
 
 #about {
@@ -74,8 +80,10 @@ div {
 }
 
 .picture img {
-	width: 100%;
-	min-height: 200px;
+	/* width: 100%; */
+	/* min-height: 200px; */
+	width: 450px;
+	height: 450px;
 }
 #about-me {
 	flex: 2
