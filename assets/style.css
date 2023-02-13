@@ -14,6 +14,9 @@ header {
 	padding-inline: 100px;
 	padding-block: 30px;
 }
+div {
+	min-height: 10px; /* ---------------------------------------------- */
+}
 .top-header {
 	width: 100%;
 	display: flex;
@@ -72,7 +75,7 @@ header {
 
 .picture img {
 	width: 100%;
-	/* height: initial; */
+	min-height: 200px;
 }
 #about-me {
 	flex: 2
