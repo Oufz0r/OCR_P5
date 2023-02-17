@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>Nina Carducci - Photographe</title>
+	<title>Nina Carducci - Photographe en Île-de-France</title>
 	<meta name="author" content="Nina Carducci">
 	<meta name="description" content="Nina Carducci - Votre photographe en Île-de-France pour des séances portrait, mariage, concert, book, en intérieur et en extérieur.">
 	<meta name="keywords" content="Photographe Île-de-France, Photographie mariage, Paris, Nina Carducci, photographe, Portrait, photo, books, album photo, photos d'entreprise, idée cadeau, cadeau original, bon cadeau, souvenirs">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 
-	<meta http-equiv="cache-control" content="max-age=0" />
+	<!-- <meta http-equiv="cache-control" content="max-age=0" />
 	<meta http-equiv="cache-control" content="no-cache" />
 	<meta http-equiv="expires" content="0" />
 	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="pragma" content="no-cache" /> -->
 	<!-- <meta http-equiv="Cache-control" content="max-age=86400000"> -->
 
 	<link rel="icon" href="./assets/images/camera.png" type="image/png">
 
+	<link rel="preload" href="./assets/bootstrap/bootstrap.css" as="style">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="preload" href="./assets/style.css" as="style">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+	<script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	
+	<!-- <script defer src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script> -->
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
 	<script defer src="./assets/maugallery.js"></script>
 	<script defer src="./assets/scripts.js"></script>
 </head>
@@ -57,7 +63,16 @@
 				</div>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" width="640" height="360" class="d-block w-100" alt="Ryoji Iwata">
+						<img
+							src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
+							srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1000.webp 1000w,
+									./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp 2000w"
+							sizes="100vw"
+							width="640"
+							height="360"
+							class="d-block w-100"
+							alt="Ryoji Iwata"
+						>
 					</div>
 					<div class="carousel-item">
 						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="Nicholas Green">
@@ -83,7 +98,7 @@
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
-				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
+				<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
 				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 					C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 			</div>
