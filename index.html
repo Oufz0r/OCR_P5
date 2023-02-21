@@ -7,13 +7,45 @@
 	<meta name="keywords" content="Photographe Île-de-France, Photographie mariage, Paris, Nina Carducci, photographe, Portrait, photo, books, album photo, photos d'entreprise, idée cadeau, cadeau original, bon cadeau, souvenirs">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
+	<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 
 	<!-- <meta http-equiv="cache-control" content="max-age=0" />
 	<meta http-equiv="cache-control" content="no-cache" />
 	<meta http-equiv="expires" content="0" />
 	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 	<meta http-equiv="pragma" content="no-cache" /> -->
-	<!-- <meta http-equiv="Cache-control" content="max-age=86400000"> -->
+	<!-- <meta http-equiv="cache-control" content="max-age=86400000"> -->
+
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "ProfessionalService",
+		"name": "Nina Carducci",
+		"image": "https://nina-carducci.github.io/assets/images/nina.png",
+		"@id": "",
+		"url": "https://nina-carducci.github.io",
+		"telephone": "0556677889",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		},
+		"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday",
+			"Friday"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
+		} 
+	}
+</script>
 
 	<link rel="icon" href="./assets/images/camera.png" type="image/png">
 
@@ -36,8 +68,8 @@
 </head>
 <body>
 	<header>
-		<div class="top-header">
-			<h1 class="name">Nina Carducci</h1>
+		<div class="top-header" itemscope itemtype="https://schema.org/Person">
+			<h1 class="name" itemprop="name">Nina Carducci</h1>
 			<nav>
 				<div class="nav">   
 					<ul>
