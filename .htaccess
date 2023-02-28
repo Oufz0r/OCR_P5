@@ -1,0 +1,4 @@
+# Cache CSS and JS files for 24 hours
+<FilesMatch "\.(css|js|webp)$">
+Header set Cache-Control "max-age=86400, public"
+</FilesMatch>
